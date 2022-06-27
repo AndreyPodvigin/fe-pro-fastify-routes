@@ -49,7 +49,8 @@ fastify.get('/users', (request, reply) => {
       if (item[filter].toString() === value) {
         return item;
       }
-    });
+    }
+    );
     return reply.status(200).send(filteredUsers);
   }
 
