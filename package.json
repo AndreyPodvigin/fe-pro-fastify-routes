@@ -27,8 +27,8 @@
     "npm": "8.10.0"
   },
   "engines": {
-    "node": "16.15.0",
-    "npm": "8.10.0"
+    "node": "^16.15.0",
+    "npm": "^8.10.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
